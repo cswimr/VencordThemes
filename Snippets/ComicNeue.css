@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+:root {
+  /*
+    * Visit https://fonts.google.com and select one to your liking.
+    * Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+    */
+  --font: "comic neue";
+  /*
+   * ~~DO NOT TOUCH~~
+   * Removing this will display an annoying update banner.
+   */
+  --update-notice-1: none;
+}
