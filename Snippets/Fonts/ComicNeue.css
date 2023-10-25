@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
 :root {
-  /*
-    1) Go to https://fonts.google.com/
-    2) Find a font you like, click on it
-    3) Replace "Comic+Neue" in the link in line 1 with the name from the url and "comic neue" in line 9 with the name from the ui
-    */
   --font-primary: "comic neue";
   --font-display: "comic neue";
   --font-headline: "comic neue";
