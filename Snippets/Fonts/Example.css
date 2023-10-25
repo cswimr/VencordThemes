@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  /*
+    1) Go to https://fonts.google.com/
+    2) Find a font you like, click on it
+    3) Replace "Roboto" in the link in line 1 with the name from the url and "Roboto" in line 9 with the name from the ui
+    */
+  --font-primary: "Roboto";
+  /* above line changes the primary font only. You can also change the ones below (remove this line to activate the lines below)
+    --font-display: "Roboto";
+    --font-headline: "Roboto";
+    --font-code: "Roboto"; /* you should use a monospace font for this */
+}
