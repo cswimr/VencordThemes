@@ -8,7 +8,7 @@
  * @source https://github.com/DiscordStyles/FrostedGlass
  * @website https://gibbu.me/
 */
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 
 /* Old Windows titlebar - remove this @import if you wish to use default titlebar */
@@ -62,7 +62,7 @@
   --tint-colour: 255, 51, 159; /* Colour of tint | DEAFULT: 255,51,159 */
   --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   /*
-   * Other variables 
+   * Other variables
    */
   --window-padding: 10px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
@@ -72,7 +72,7 @@
     * Visit https://fonts.google.com and select one to your liking.
     * Now just follow this tutorial: https://imgur.com/a/CNbw7xC
     */
-  --font: "comic neue";
+  --font: "roboto";
   /*
    * ~~DO NOT TOUCH~~
    * Removing this will display an annoying update banner.
