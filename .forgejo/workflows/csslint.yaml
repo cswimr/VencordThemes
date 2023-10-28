@@ -7,5 +7,7 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.COASTALCOMMITSTOKEN }}
     - name: Lint CSS
       uses: actions/stylelinter@master
