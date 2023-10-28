@@ -1,7 +1,5 @@
 ﻿name: Lint CSS
-
-on:
-  push
+on: [push]
 
 jobs:
   lint:
@@ -10,4 +8,4 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
     - name: Lint CSS
-      uses: https://github.com/marketplace/actions/stylelinter@master
+      uses: actions/stylelinter@master
