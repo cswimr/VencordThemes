@@ -2,7 +2,7 @@
 on: [push]
 
 jobs:
-  lint:
+  Lint CSS:
     runs-on: docker
     steps:
     - name: Checkout Repository
