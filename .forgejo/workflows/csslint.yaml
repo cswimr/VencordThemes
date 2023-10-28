@@ -1,0 +1,13 @@
+﻿name: Lint CSS
+
+on:
+  push
+
+jobs:
+  lint:
+    runs-on: docker
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+    - name: Lint CSS
+      uses: https://github.com/marketplace/actions/stylelinter@master
