@@ -1,0 +1,19 @@
+{
+  "name": "vencordthemes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.coastalcommits.com/SeaswimmerTheFsh/VencordThemes"
+  },
+  "author": "SeaswimmerTheFsh",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
