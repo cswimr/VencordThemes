@@ -18,7 +18,7 @@
   /*
    * Background image variables
    */
-  --background-image: url("https://cdn.seaswimmer.cc/u/o856V4.jpg"); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url("https://seafsh.cc/u/o856V4.jpg"); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -91,13 +91,16 @@
 }
 
 /* Custom CSS */
-  /* Add danger colours to dangerous user actions */
-  #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
-  #user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
-      background-color: var(--red-500)!important;
-      color: var(--white-500)!important;
-  }
-  #user-context-close-dm[class*="focused-"], #user-context-remove-friend[class*="focused-"], #user-context-block[class*="focused-"] {
-      background-color: var(--button-danger-background);
-      color: var(--white-500);
-  }
+
+/* Add danger colours to dangerous user actions */
+#user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
+
+#user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
+  background-color: var(--red-500)!important;
+  color: var(--white-500)!important;
+}
+
+#user-context-close-dm[class*="focused-"], #user-context-remove-friend[class*="focused-"], #user-context-block[class*="focused-"] {
+  background-color: var(--button-danger-background);
+  color: var(--white-500);
+}
