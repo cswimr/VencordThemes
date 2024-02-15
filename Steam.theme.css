@@ -1,0 +1,39 @@
+/* stylelint-disable selector-class-pattern */
+
+/**
+ * @name Steam
+ * @author maenDisease
+ * @version 1.0.0
+ * @description Steam UI on Discord.
+ * @source https://github.com/maenDisease/Steam
+ * @invite BShu37e4jg
+ * @website https://maendisease.github.io/
+ * @authorId 678469587444170762
+*/
+
+@import url('https://maendisease.github.io/Steam/Steam.css');
+
+:root {
+  --hue-shift: 0;
+  --content-width: 100%;
+  --message-width: 100%;
+  --server-size: 36px;
+  --custom-font: gg sans;
+  --custom-font-code: monospace;
+}
+
+/* Any custom CSS below here */
+
+
+#app-mount .message__80c10 {
+  background: hsl(calc(var(--accent-hue) + 9), calc(var(--saturation-factor, 1) * 35.4%), 19.4%, 0.8);
+  border: 0;
+  box-shadow: 0 0 0;
+  margin: 0 16px;
+  margin-bottom: 1px;
+  max-width: var(--message-width);
+}
+
+.header__39b23 {
+  opacity: 1;
+}
