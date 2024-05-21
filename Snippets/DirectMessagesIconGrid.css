@@ -1,0 +1,46 @@
+/* Credit to vending_machine (343383572805058560) on the Vencord discord for this snippet */
+[class^=privateChannels_] [class^=content_] {
+  display: grid;
+  height: unset !important;
+  grid-template-columns: 1fr 1fr;
+
+  &> * {
+      overflow: hidden;
+      grid-column: 1 / 3;
+  }
+}
+
+[class^=channel_]:has(
+  [href="/channels/@me"],
+  [href="/library"],
+  [href="/shop"],
+  [href="/store"],
+  [href="/family-center"],
+  [href="/message-requests"]
+) {
+  grid-column: auto;
+
+  [class*="link_"] {
+      gap: 0;
+      justify-content: center;
+      position: relative;
+
+      &> :not([class*="avatarWithText_"]) {
+          position: absolute;
+          left: 5.5em;
+      }
+  }
+
+  [class*="avatar_"] {
+      margin: 0;
+      width: unset;
+  }
+
+  [class*="avatarWithText_"] {
+      flex-grow: unset;
+  }
+
+  [class*="content_"] {
+      display: none;
+  }
+}
