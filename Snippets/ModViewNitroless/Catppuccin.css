@@ -11,7 +11,9 @@
 }
 
 #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div:nth-child(3) > div > div, #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.guildSidebar__5583b > div > div {
-    --custom-theme-mix-text: white !important
+    --custom-theme-mix-text: white !important;
+    --profile-gradient-primary-color: #181825 !important;
+    --profile-gradient-secondary-color: #181825 !important;
 }
 
 #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div:nth-child(3) > div > div > div > div > div.container_cbd141 > div.topRow_b0479e > div.memberNameContainer__4d221 > div.memberName_d8b665 > div > span, .text-sm-normal__95a78, .changeStr__50757, .text-sm-medium__726be, .eyebrow_b3f8ba, .h5__28baa, .label_bf6957, .legend__2459b, .text-sm-semibold_d260b0, .text-xs-medium_d3e0f1, .heading-md-semibold__76ba1, .text-md-medium_a84e09, #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.guildSidebar__5583b > div > div > div > div > div.container_cbd141 > div.topRow_b0479e > div.memberNameContainer__4d221 > div.memberName_d8b665 > div > span {
